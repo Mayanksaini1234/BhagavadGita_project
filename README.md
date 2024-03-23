@@ -7,17 +7,17 @@
 - Express.js
 - EJS
 - CSS
--API
+- API
 
 ### Usage
  Once the server is running, you can make HTTP requests to the provided endpoints to retrieve information about specific chapters of the Bhagavad Gita.
  
 ### Dependencies
-This project relies on the following dependencies:
--express: Web framework for Node.js.
--ejs: Embedded JavaScript templating.
--axios: Promise-based HTTP client for Node.js.
--Bhagavad-gita-api: API for retrieving Bhagavad Gita verses
+ This project relies on the following dependencies:
+- express: Web framework for Node.js.
+- ejs: Embedded JavaScript templating.
+- axios: Promise-based HTTP client for Node.js.
+- Bhagavad-gita-api: API for retrieving Bhagavad Gita verses
 
 ### Installation:
 1. Clone the repository:
