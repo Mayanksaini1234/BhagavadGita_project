@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bhagavad Gita Chapters</title>
+    <link rel="stylesheet" href="/style/main.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="title_h1">
+            Bhagavad Gita</h1>
+
+        <form action="/gita" id="form" class="form" method="post">
+            <select name="type" class="form-select">
+                <option value="1" data-display="Select">Chapter's Number</option>
+                <option value="1">Chapter-1</option>
+                <option value="2">Chapter-2</option>
+                <option value="3">Chapter-3</option>
+                <option value="4">Chapter-4</option>
+                <option value="5">Chapter-5</option>
+                <option value="6">Chapter-6</option>
+                <option value="7">Chapter-7</option>
+                <option value="8">Chapter-8</option>
+                <option value="9">Chapter-9</option>
+                <option value="10"> Chapter-10</option>
+                <option value="11"> Chapter-11</option>
+                <option value="12"> Chapter-12</option>
+                <option value="13"> Chapter-13</option>
+                <option value="14"> Chapter-14</option>
+                <option value="15"> Chapter-15</option>
+                <option value="16"> Chapter-16</option>
+                <option value="17"> Chapter-17</option>
+                <option value="18"> Chapter-18</option>
+            </select>
+
+            <button type="submit" class="form-submit">Go</button>
+        </form>
+       
+        <img src="./images/img1.jpg" alt="kanha">
+<script>
+    let random_no = Math.floor(Math.random()*7);
+    let img_url=`./images/img${random_no}.jpg`;
+ let img =document.querySelectorAll("img")[0];
+img.setAttribute("src", img_url)
+ 
+</script>
+        <div class="cards">
+        <% if (locals.name||locals.english_summary||locals.hindi_summary){ %>
+
+            <span><div class="title">TITLE</div><div class="title_title"><%= name %></div></span>
+            <span><div class="title">ENGLISH EXPLANATION</div><%= english_summary %></span>
+            <span><div class="title">HINDI EXPLANATION</div><%= hindi_summary %></span>
+        
+                <% } %>
+           
+            </div>
+
+
+</body>
+
+</html>
