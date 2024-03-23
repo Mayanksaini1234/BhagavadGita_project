@@ -32,7 +32,10 @@
    ```
    node index.js
    ```
-
+### Screenshots:
+![app](https://github.com/Mayanksaini1234/BhagavadGita_project/blob/main/screenshots/Screenshot_23-3-2024_173816_localhost.jpeg)
+![app](https://github.com/Mayanksaini1234/BhagavadGita_project/blob/main/screenshots/Screenshot_23-3-2024_173835_localhost.jpeg)
+![app](https://github.com/Mayanksaini1234/BhagavadGita_project/blob/main/screenshots/Screenshot_23-3-2024_173916_localhost.jpeg) 
 
 ### License:
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
